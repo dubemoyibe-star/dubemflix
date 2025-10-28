@@ -69,6 +69,7 @@ border-bottom-right-radius: 6px;
 border-top-right-radius: 6px;
  color: rgb(229,231,235);   
 background-color: rgb(75, 75, 75);
+  cursor: pointer;
 }
 
 .search-bar input{
@@ -102,5 +103,5 @@ input::placeholder{
 .logo-text{
   margin-top: 0.5rem;
   font-weight: 500;
-
+  opacity: 0.8;
 }
