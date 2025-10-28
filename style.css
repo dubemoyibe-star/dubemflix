@@ -1,0 +1,95 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: rgb(14,14,14);
+}
+
+*{
+  box-sizing: border-box;
+}
+
+/* hero section */
+
+.hero-section{
+  position: relative;
+}
+
+.hero-image{
+  width: 100%;
+  height: 150px;
+  background-color: rgb(46,46,47);
+
+}
+
+.search-bar{
+  position: absolute;
+}
+
+.find-film h1{
+  margin: 0px;
+  padding: 0px;
+  color: rgb(229,231,235); 
+  font-size: 2rem;
+}
+
+.find-film{
+  top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 2.5em;
+  width: 100%;
+  position: absolute;
+  top: 15px;
+}
+
+.find-film a{
+  text-decoration: none;
+  color: rgb(229,231,235); 
+  align-self: center;
+  font-size: 1rem;
+  padding: 0.4em 1em;
+  border-radius: 10px;
+  border: 1px solid rgb(75, 75, 75);
+}
+
+.search-bar{
+  top: 150px;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  display: flex;
+}
+
+.search-bar button {
+ padding: 0.8em ;
+ border: none;
+border-bottom-right-radius: 6px;
+border-top-right-radius: 6px;
+ color: rgb(229,231,235);   
+background-color: rgb(75, 75, 75);
+}
+
+.search-bar input{
+ padding: 0.8em ;
+ width: 35vw;
+ border: none;
+ border-top-left-radius:6px;
+ border-bottom-left-radius:6px ;
+ background-color: rgb(46,46,47);
+ color: rgb(229,231,235);
+}
+input::placeholder{
+   color: rgb(229,231,235);   
+  opacity: 0.4;
+  }
+/* movie section */
+.logo{
+  display: block;
+  margin:  auto;
+  margin-top: 13em;
+  color: rgb(229,231,235);
+  text-align: center;
+  font-size: 1.05rem;
+}
