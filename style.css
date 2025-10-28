@@ -42,7 +42,7 @@ body{
   padding: 0px 2.5em;
   width: 100%;
   position: absolute;
-  top: 15px;
+  top: 40px;
 }
 
 .find-film a{
@@ -73,12 +73,17 @@ background-color: rgb(75, 75, 75);
 
 .search-bar input{
  padding: 0.8em ;
- width: 35vw;
+ width: 45vw;
  border: none;
  border-top-left-radius:6px;
  border-bottom-left-radius:6px ;
  background-color: rgb(46,46,47);
  color: rgb(229,231,235);
+ background-image: url("searchicon.png");
+ background-size: 15px;
+ background-repeat: no-repeat;
+ background-position: 10px center;
+ padding-left: 2.5em;
 }
 input::placeholder{
    color: rgb(229,231,235);   
