@@ -13,7 +13,8 @@ body{
 /* hero section */
 
 .hero-section{
-  position: relative;
+  position: fixed;
+  width: 100%;
 }
 
 .hero-image{
@@ -105,3 +106,59 @@ input::placeholder{
   font-weight: 500;
   opacity: 0.8;
 }
+
+#container{
+  padding: 200px 40px;
+
+}
+.movie{
+     color: rgb(229,231,235);
+     padding: 18px;
+     border-bottom: 1px solid rgb(229,231,235);
+}
+.movie, .movie-header{
+display: flex;
+  gap: 15px;
+ 
+}
+
+.movie-info{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+
+}
+
+.movie img{
+    width: 160px;
+  height: 240px;
+  object-fit: cover;         /* crop images to fill box, keeps aspect ratio */
+  border-radius: 6px;
+  flex-shrink: 0;            /* prevent image from shrinking in flex layout */
+  margin-right: 12px;
+  display: block;                                                                                  ;
+}
+
+.movie h2{
+  margin-top: 0px;
+  margin-bottom: 8px;
+}
+.movie p{
+  margin: 3px;
+   max-width: 700px;
+
+}
+
+.watchlist-btn {
+  padding: 6px 12px;
+  display: inline-block;
+  border-radius: 6px;
+  border: none;
+  margin-left: 10px;
+   flex: 0 0 auto;
+  min-width: 88px;   
+  height: 30px;      
+  box-sizing: border-box;
+}
+
+
