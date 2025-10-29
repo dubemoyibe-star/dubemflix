@@ -32,16 +32,14 @@ searchBtn.addEventListener("click", function(){
 
       
       })
-    }else if(data.Response === "False" ){
-      document.getElementById('error-msg').innerHTML = `
-      <p>Unable to find what you are looking<br>for.Please try another search </p>
-      `
+    } else if (data.Response === "False") {
+      containerEl.innerHTML = `<p id="error-msg">Unable to find what you are looking for. Please try another search.</p>`;
     }
   })
-  .catch(error => console.error('Error fetching data:', error)); 
+  .catch(error => console.error('Error fetching data:', error));
+})
 
 
-  })
 
  
 

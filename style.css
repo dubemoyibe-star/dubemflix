@@ -15,6 +15,7 @@ body{
 .hero-section{
   position: fixed;
   width: 100%;
+  top:0px;
 }
 
 .hero-image{
@@ -92,7 +93,7 @@ input::placeholder{
   opacity: 0.4;
   }
 /* movie section */
-.logo, .logo-text{
+.logo, .logo-text, #error-msg{
   display: block;
   margin:  auto;
   margin-top: 13em;
@@ -159,6 +160,11 @@ display: flex;
   min-width: 88px;   
   height: 30px;      
   box-sizing: border-box;
+}
+#error-msg{
+  margin-top: 8em;
+  font-weight: 500;
+  opacity: 0.8;
 }
 
 
