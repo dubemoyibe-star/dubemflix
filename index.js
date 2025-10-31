@@ -6,7 +6,7 @@ const watchlistBtn = document.getElementById("watchlist-btn")
 searchBtn.addEventListener("click", function(){
   containerEl.innerHTML = "";
   const searchValue = document.getElementById('search-input').value.toLowerCase();
-  fetch(`http://www.omdbapi.com/?s=${searchValue}&apikey=70e18d7b`)
+  fetch(`https://www.omdbapi.com/?s=${searchValue}&apikey=70e18d7b`)
   .then(response => response.json())
   .then(data => {
     if(data.Response === "True"){
