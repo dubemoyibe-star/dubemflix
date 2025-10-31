@@ -109,10 +109,9 @@ input::placeholder{
 }
 
 #container{
-  padding: 12.5em 0.9375em;
+  padding: 12.5em 0.0375em;
   box-sizing: border-box;
   max-width: 100%;
-  margin: 0 0.9375em;
   overflow-x: hidden;
 
 }
