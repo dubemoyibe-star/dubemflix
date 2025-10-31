@@ -116,7 +116,6 @@ input::placeholder{
      color: rgb(229,231,235);
      padding: 1.125em;
      border-bottom: 1px solid rgb(229,231,235);
-     flex-wrap: wrap;
 }
 .movie, .movie-header{
 display: flex;
@@ -132,12 +131,12 @@ display: flex;
 }
 
 .movie img{
-    width: 160px;
+    width: 10rem;
   height: 240px;
   object-fit: cover;         /* crop images to fill box, keeps aspect ratio */
   border-radius: 6px;
   flex-shrink: 0;            /* prevent image from shrinking in flex layout */
-  margin-right: 12px;
+  margin-right: 0.75em;
   display: block;                                                                                  ;
 }
 
