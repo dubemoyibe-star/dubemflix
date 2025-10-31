@@ -116,6 +116,7 @@ input::placeholder{
      color: rgb(229,231,235);
      padding: 1.125em;
      border-bottom: 1px solid rgb(229,231,235);
+     flex-wrap: wrap;
 }
 .movie, .movie-header{
 display: flex;
