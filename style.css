@@ -138,10 +138,9 @@ display: flex;
     width: 10rem;
     max-width: 100%;
   height: 240px;
-  object-fit: cover;         /* crop images to fill box, keeps aspect ratio */
+  object-fit: cover;       
   border-radius: 6px;
-  flex-shrink: 1;            /* prevent image from shrinking in flex layout */
-  margin-right: 0.75em;
+  flex-shrink: 1;         
   display: block;                                                                                  ;
 }
 
