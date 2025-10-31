@@ -30,8 +30,8 @@ body{
 }
 
 .find-film h1{
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   color: rgb(229,231,235); 
   font-size: 2rem;
 }
@@ -109,12 +109,12 @@ input::placeholder{
 }
 
 #container{
-  padding: 200px 15px;
+  padding: 12.5em 0.9375em;
 
 }
 .movie{
      color: rgb(229,231,235);
-     padding: 18px;
+     padding: 1.125em;
      border-bottom: 1px solid rgb(229,231,235);
 }
 .movie, .movie-header{
@@ -141,21 +141,21 @@ display: flex;
 }
 
 .movie h2{
-  margin-top: 0px;
-  margin-bottom: 8px;
+  margin-top: 0em;
+  margin-bottom: 0.5em;
 }
 .movie p{
-  margin: 3px;
+  margin: 0.1875em;
    max-width: 700px;
 
 }
 
 .watchlist-btn {
-  padding: 6px 12px;
+  padding: 0.375em 0.75em;
   display: inline-block;
   border-radius: 6px;
   border: none;
-  margin-left: 10px;
+  margin-left: 0.625em;
    flex: 0 0 auto;
   min-width: 88px;   
   height: 30px;      
