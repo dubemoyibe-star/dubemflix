@@ -35,9 +35,8 @@ document.addEventListener("click", function(e){
     const index = watchlist.indexOf(movieHTML);
     if(index !== -1){
       watchlist.splice(index, 1)
-      localStorage.removeItem("watchlist.splice(index, 1)");
     }
     localStorage.setItem('watchlist', JSON.stringify(watchlist));
     movieEl.remove();
   }
-});
+})
